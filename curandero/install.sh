@@ -73,11 +73,6 @@ then
 sleep 0
 else
 cd ~
-{
-git clone https://github.com/entynetproject/quack.git
-} &> /dev/null
-fi
-
 if [[ -d ~/quack ]]
 then
 cd ~/quack
